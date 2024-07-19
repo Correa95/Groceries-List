@@ -8,34 +8,72 @@
   </head>
   <body>
     <main>
-      <h1>My Very Organized Groceries List</h1>
+      <h1
+        style="
+          font-family: Times New Roman, Times, serif;
+          display: flex;
+          color: red;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        My Very Organized Groceries List
+      </h1>
       <h2>pantry items</h2>
       <div class="itemcontainer">
-        <div class="items">
-          <h1 class="itemsname">canned</h1>
+        <section style="background-color: #333; color: #fff" class="items">
+          <h3 class="itemsname">canned</h3>
           <ul>
             <li>Corn</li>
             <li>Tuna</li>
             <li>Green Beans</li>
             <li>Beans</li>
           </ul>
-        </div>
-        <div class="items">
-          <h1 class="itemsname">dry goods</h1>
+        </section>
+        <section style="background-color: #333; color: #fff" class="items">
+          <h3 class="itemsname">dry goods</h3>
           <ul>
             <li>Rice</li>
             <li>Lentils</li>
             <li>Oats</li>
             <li>Pancake Mix</li>
           </ul>
-        </div>
-        <div class="items">
-          <h1 class="itemsname">groceries items photo</h1>
+        </section>
+        <section>
+          <!-- <h3 class="itemsname">groceries items photo</h3> -->
 
-          <div class="image">
-            <img src="/block06/groce.jpg" alt="groceries Items" />
+          <div>
+            <img src="groceries.jpg" class="image" alt="groceries Items" />
           </div>
-        </div>
+        </section>
+      </div>
+      <h2 style="color: #fff; background-color: green">freezer items</h2>
+      <div class="itemcontainer">
+        <section style="background-color: #333; color: #fff" class="items">
+          <h3 class="itemsname">veggies</h3>
+          <ol>
+            <li>Broccoli</li>
+            <li>Carrots</li>
+            <li>Cauliflower</li>
+            <li>Bell Peppers</li>
+          </ol>
+        </section>
+        <section style="background-color: #333; color: #fff" class="items">
+          <h3 class="itemsname">Snacks</h3>
+          <ol>
+            <li>Chicken nuggets</li>
+            <li>Hot pockets</li>
+            <li>Fries</li>
+            <li>Tator Tots</li>
+          </ol>
+        </section>
+        <section>
+          <!-- <h3 class="itemsname">groceries items photo</h3> -->
+
+          <div>
+            <img src="vegetables.jpg" class="image" alt="groceries Items" />
+          </div>
+        </section>
       </div>
 
       <!-- <div class="itemcontainer">
@@ -51,7 +89,7 @@
         </div>
         <h2>freezer items</h2>
         <div class="items">
-          <h1 class="itemsname">Snacks</h1>
+          <h3 class="itemsname">Snacks</h3>
           <ol>
             <li>Chicken nuggets</li>
             <li>Hot pockets</li>
